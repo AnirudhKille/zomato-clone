@@ -1,0 +1,290 @@
+body {
+    margin: 0;
+}
+
+.homeImg {
+    width: 100%;
+    height: 450px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+
+}
+
+.navBar {
+    position: absolute;
+    width: 90%;
+    height: 40px;
+    text-align: right;
+    top: 0;
+    left: 0;
+    font-style: Poppins;
+}
+
+.login {
+    margin-top: 10px;
+    padding: 10px;
+    color: white;
+    background-color: transparent;
+    border: none;
+
+}
+
+.create {
+    margin-top: 10px;
+    padding: 10px;
+    color: white;
+    background-color: transparent;
+    border: 2px solid white;
+}
+
+.topSection {
+    position: absolute;
+    top: 80px;
+    width: 100%;
+    text-align: center;
+}
+
+.centerLogo {
+    height: 99px;
+    width: 99px;
+    margin: auto;
+    font-family: Poppins;
+    padding: 5px;
+    border: 1px solid #707070;
+    background-color: white;
+    border-radius: 50%;
+    font-family: Poppins;
+    font-size: 70px;
+    font-weight: 600;
+    font-stretch: normal;
+    font-style: normal;
+    color: red;
+    line-height: 99px;
+    letter-spacing: normal;
+}
+
+.headerText {
+    height: 50px;
+    font-family: Poppins;
+    font-size: 35px;
+    font-weight: 600;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.5;
+    letter-spacing: normal;
+    color: white;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.searchOption {
+    margin-top: 50px;
+}
+
+.locationBox {
+    width: 240px;
+    height: 45px;
+    margin: 0 21px 0 0;
+    font-size: 18px;
+    padding: 10px;
+
+}
+
+.searchBox {
+    position: relative;
+}
+
+.seachIcon {
+    position: absolute;
+    left: 30px;
+    top: 0px;
+}
+
+.searchInput {
+    width: 440px;
+    height: 45px;
+    margin: 0 0 0 20px;
+    padding: 10px;
+    background-color: white;
+    padding-left: 40px;
+    font-size: 18px;
+}
+
+.bottamSection {
+    margin: 50px 150px 50px 50px;
+}
+
+.qs-heading {
+    height: 43px;
+    font-family: Poppins;
+    font-size: 30px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.5;
+    letter-spacing: normal;
+    color: #192f60;
+    text-align: left;
+
+}
+
+.qs-subHeading {
+    height: 25px;
+    font-family: Poppins;
+    font-size: 18px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.5;
+    letter-spacing: normal;
+    color: #192f60;
+    text-align: left;
+}
+
+.qs-boxes-container {
+    margin-top: 30px;
+}
+
+.qsBox {
+    display: inline-block;
+    width: 33%;
+}
+
+.qsBoxContents {
+    height: 160px;
+    box-shadow: 0 3px 6px black;
+    background-color: white;
+    margin-right: 30px;
+    margin-bottom: 30px;
+    position: relative;
+}
+
+.qsImage {
+    height: 160px;
+    width: 160px;
+    margin: 0 30px 0 0;
+}
+
+.qsItemHeading {
+    position: absolute;
+    top: 0px;
+    left: 190px;
+    height: 25px;
+    font-family: Poppins;
+    font-size: 18px;
+    font-weight: 600;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.5;
+    letter-spacing: normal;
+    color: #192f60;
+    text-align: left;
+}
+
+.qsItemDescription {
+    position: absolute;
+    top: 50px;
+    left: 190px;
+    max-width: 190px;
+    font-family: Poppins;
+    font-size: 14px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.5;
+    letter-spacing: normal;
+    color: gray;
+    text-align: left;
+}
+
+li {
+    list-style: none;
+    border-color: lightgray;
+    background-image: linear-gradient(90deg, red, 20px, lightgray 10px);
+    padding: 10px 15px 10px 25px;
+    border: 1px solid #ccc;
+    box-shadow: inset 1px 1px 0 rgba(255, 255, 255, 0.5);
+    margin-bottom: 5px;
+    width: 50%;
+    box-sizing: border-box;
+    cursor: pointer;
+    border-radius: 3px;
+    margin-left: 31vw;
+   
+}
+
+#query {
+    width: 50%;
+    box-sizing: border-box;
+    font-size: 19px;
+    padding: 5px;
+    font-family: calibri light;
+    border: 1px solid rgba(0, 0, 0, 0.2);
+    border-radius: 3px;
+    border-color: lightgray;
+    color: gray;
+    padding-left: 29px;
+}
+
+#notebooks {
+    position: absolute;
+    left: 38%;
+    width: 390px;
+    overflow-y: auto;
+    border: 1px solid rgba(0, 0, 0, 0. 1);
+    padding: 10px;
+    border-top: 1px solid rgba(0, 0, 0, 0. 1);
+    box-shadow: inset rgba(255, 255, 255, 0.5);
+}
+
+
+@media(max-width:1130px) {
+    .qsItemDescription {
+        max-width: 150px;
+        left: 170px;
+        top: 30px;
+    }
+
+    .qsItemHeading {
+        left: 170px;
+    }
+}
+
+
+@media(max-width:970px) {
+    .qsBox {
+        width: 50%;
+    }
+
+    .qsItemDescription {
+        width: 140px;
+        left: 180px;
+        top: 50px;
+
+    }
+
+    .qsItemHeading {
+        left: 180px;
+
+    }
+}
+
+@media (max-width:760px) {
+    .qsBox {
+        width: 80%;
+        margin: 10px
+    }
+
+    .qsItemDescription {
+        width: 140px;
+        left: 180px;
+        top: 50px;
+
+    }
+
+    .qsItemHeading {
+        left: 180px;
+    }
+
+}
