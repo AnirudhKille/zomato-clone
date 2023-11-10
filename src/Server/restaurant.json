@@ -1,0 +1,126 @@
+{
+  "message": "Restaurant Fetched Succesfully",
+  "restaurants": [
+    {
+      "_id": "652d6b0d90657594c06af4ba",
+      "name": "Domino's",
+      "city": "Delhi",
+      "location_id": 1,
+      "city_id": 1,
+      "locality": "ShalimarBagh",
+      "thumb": [
+        "Assets/breakfast.jpg",
+        "Assets/dinner.jpg",
+        "Assets/drinks.jpg",
+        "Assets/dinner.jpg"
+      ],
+      "aggregate_rating": 4.2,
+      "rating_text": "VeryGood",
+      "min_price": 666,
+      "contact_number": 919453524651,
+      "cuisine": [
+        {
+          "id": 1,
+          "name": "NorthIndian"
+        },
+        {
+          "id": 4,
+          "name": "FastFood"
+        }
+      ],
+      "image": "Assets/breakfast.jpg",
+      "mealtype_id": 1
+    },
+    {
+      "_id": "652d6b0d90657594c06af4bb",
+      "name": "KFC",
+      "city": "Delhi",
+      "location_id": 1,
+      "city_id": 1,
+      "locality": "ShalimarBagh",
+      "thumb": [
+        "Assets/breakfast.jpg",
+        "Assets/dinner.jpg",
+        "Assets/drinks.jpg",
+
+        "Assets/dinner.jpg"
+      ],
+      "aggregate_rating": 4.5,
+      "rating_text": "Excellent",
+      "min_price": 333,
+      "contact_number": 919453524651,
+      "cuisine": [
+        {
+          "id": 2,
+          "name": "SouthIndian"
+        },
+        {
+          "id": 4,
+          "name": "FastFood"
+        }
+      ],
+      "image": "Assets/breakfast.jpg",
+      "mealtype_id": 1
+    },
+    {
+      "_id": "652d6b0d90657594c06af4bc",
+      "name": "BurgerKing",
+      "city": "Delhi",
+      "location_id": 1,
+      "city_id": 1,
+      "locality": "ShalimarBagh",
+      "thumb": [
+        "Assets/breakfast.jpg",
+        "Assets/dinner.jpg",
+        "Assets/drinks.jpg",
+        "Assets/dinner.jpg"
+      ],
+      "aggregate_rating": 4.5,
+      "rating_text": "Excellent",
+      "min_price": 999,
+      "contact_number": 919453524651,
+      "cuisine": [
+        {
+          "id": 2,
+          "name": "SouthIndian"
+        },
+        {
+          "id": 4,
+          "name": "FastFood"
+        }
+      ],
+      "image": "Assets/breakfast.jpg",
+      "mealtype_id": 1
+    },
+    {
+      "_id": "652d6b0d90657594c06af4bd",
+      "name": "BabaKaDhaba",
+      "city": "Delhi",
+      "location_id": 5,
+      "city_id": 1,
+      "locality": "AnandVihar",
+      "thumb": [
+        "Assets/breakfast.jpg",
+        "Assets/dinner.jpg",
+        "Assets/drinks.jpg",
+        "Assets/dinner.jpg"
+      ],
+      "aggregate_rating": 3.5,
+      "rating_text": "Excellent",
+      "min_price": 599,
+      "contact_number": 919453524651,
+      "cuisine": [
+        {
+          "id": 2,
+          "name": "SouthIndian"
+        },
+        {
+          "id": 4,
+          "name": "FastFood"
+        }
+      ],
+      "image": "Assets/breakfast.jpg",
+      "mealtype_id": 2
+    }
+  ]
+}

@@ -1,0 +1,47 @@
+{
+  "message": "Meal Types Fetched Succesfully",
+  "mealTypes": [
+    {
+      "_id": "652d6b0d90657594c06af4ca",
+      "name": "Breakfast",
+      "content": "Start your day with exclusive breakfast options",
+      "image": "Assets/breakfast.jpg",
+      "meal_type": 1
+    },
+    {
+      "_id": "652d6b0d90657594c06af4cb",
+      "name": "Lunch",
+      "content": "Start your day with exclusive lunch options",
+      "image": "Assets/lunch.jpg",
+      "meal_type": 2
+    },
+    {
+      "_id": "652d6b0d90657594c06af4cc",
+      "name": "Dinner",
+      "content": "Start your day with exclusive dinner options",
+      "image": "Assets/dinner.jpg",
+      "meal_type": 3
+    },
+    {
+      "_id": "652d6b0d90657594c06af4cd",
+      "name": "Snacks",
+      "content": "Start your day with exclusive snacks options",
+      "image": "Assets/snacks.jpg",
+      "meal_type": 4
+    },
+    {
+      "_id": "652d6b0d90657594c06af4ce",
+      "name": "Drinks",
+      "content": "Start your day with exclusive drinks options",
+      "image": "Assets/drinks.jpg",
+      "meal_type": 5
+    },
+    {
+      "_id": "652d6b0d90657594c06af4cf",
+      "name": "NightLife",
+      "content": "Start your day with exclusive nightlife options",
+      "image": "Assets/nightlife.jpeg",
+      "meal_type": 6
+    }
+  ]
+}

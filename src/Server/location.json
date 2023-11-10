@@ -1,0 +1,45 @@
+{
+  "message": "Location Fetched Succesfully",
+  "locations": [
+    {
+      "_id":"652d6b0d90657594c06af4aa",
+      "name": "ShalimarBagh",
+      "city_id": 1,
+      "location_id": 1,
+      "city": "Delhi",
+      "country_name": "India"
+    },
+    {
+      "_id":"652d6b0d90657594c06af4ab",
+      "name": "Janpat",
+      "city_id": 1,
+      "location_id": 2,
+      "city": "Delhi",
+      "country_name": "India"
+    },
+    {
+      "_id":"652d6b0d90657594c06af4ac",
+      "name": "MSP",
+      "city_id": 1,
+      "location_id": 3,
+      "city": "Delhi",
+      "country_name": "India"
+    },
+    {
+      "_id":"652d6b0d90657594c06af4ad",
+      "name": "MSP",
+      "city_id": 2,
+      "location_id": 4,
+      "city": "Pune",
+      "country_name": "India"
+    },
+    {
+      "_id":"652d6b0d90657594c06af4ae",
+      "name": "AnandVihar",
+      "city_id": 1,
+      "location_id": 5,
+      "city": "Delhi",
+      "country_name": "India"
+    }
+  ]
+}
